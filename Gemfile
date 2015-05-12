@@ -5,6 +5,7 @@ group :production do
   gem 'rails_12factor'
 end
 
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use SCSS for stylesheets
@@ -15,6 +16,9 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+
+gem 'ember-rails'
+gem 'ember-source', '~> 1.9.0' # or the version you need
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
